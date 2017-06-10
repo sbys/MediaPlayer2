@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a.mediaplayer2.Activity.Main"
+    android:background="@drawable/main_back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   本地音乐"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   我喜欢"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   我的歌单"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   我的歌单"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   我的歌单"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   我的视频"
+            android:textSize="20dp"
+            android:textColor="#d4efe1e1"
+            android:id="@+id/video"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/line1"
+        android:alpha="255">
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search"
+            android:iconifiedByDefault="false"
+            android:inputType="text"
+            android:layerType="software"
+            android:queryHint="完成"
+            android:background="#4bf4efef"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <include layout="@layout/content"></include>
+</RelativeLayout>
